@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        .one{border: 2px solid black;
+            text-align: center;
+        }
+    </style>
+<p style="text-align: center;"><b>A Web Page</b></p>
+<hr>
+</head>
+<body>
+        <p class="one">Home | Generate Link | Transaction Histroy | Policy | Logout</p>
+        <img src="/Gambar/MacBook Air.jpg" alt="Foto MacBook"><br>
+        <button type="submit">Upload Picture</button>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="title">Title Here : </label></td>
+                    <td><input type="text" name="title"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Description : </label></td>
+                    <td><textarea name="" cols="20" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="acc">Account Number</label></td>
+                    <td><input type="text" name="acc"></td>
+                </tr>
+                <tr>
+                    <td><label for="bank">Bank : </label></td>
+                    <td><input type="text" list="banklevel" name="bank"></td>
+                    <datalist id="banklevel">
+                        <option value="BSHC"></option>
+                        <option value="Visa Debit"></option>
+                    </datalist>
+                </tr>
+                <tr>
+                    <td><label for="acchold">Account Holder</label></td>
+                    <td><input type="text" name="acchold"></td>
+                </tr>
+                <tr>
+                    <td><label for="tran">Transaction</label></td>
+                    <td><select name="">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select></td>
+                </tr>
+            </tbody>
+        </table>
+                    <ul style="list-style: none;">
+                        <li>
+                            <input type="checkbox" name="mphone" value="mp">
+                            <label for="mphone">Send to Mobile Phone</label><br>
+                            <input type="checkbox" name="email" value="em">
+                            <label for="email">Send to Email</label><br>
+                        </li>
+                    </ul>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td><label for="phone">Send to Mobile Phone : </label></td>
+                    <td><input type="text" name="phone"></td>
+                </tr>
+                <tr>
+                    <td><label for="emaill">Send to Email : </label></td>
+                    <td><input type="text" name="emaill"></td>
+                </tr>
+            </tbody>
+        </table>
+         <button type="submit"><a href="hasil.html">Generate Nobr Link</a></button>
+</body>
+</html>
