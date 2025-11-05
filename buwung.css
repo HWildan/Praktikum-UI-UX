@@ -1,0 +1,63 @@
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+#link ul {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#header {
+    background-color: tan;
+    height: 175px;
+}
+
+#header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: blue;
+    padding: 20px;
+}
+
+#header blockquote {
+    padding: 5px;
+    text-align: center;
+    background-color: gold;
+    border: 2px dotted;
+    height: 50px;
+}
+
+.gambar {
+    display: flex;
+    justify-content: center;
+}
+
+.isi {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hurufbesar {
+    font-size: 60px;
+    color: blue;
+}
+
+#profil {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#beternak {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.koleksi {
+    display: flex;
+    justify-content: center;
+    height: 240px;
+}
+
+.promo {
+    font-family: Arial, Helvetica, sans-serif;
+}
